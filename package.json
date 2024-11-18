@@ -16,9 +16,9 @@
     "sui-testnet-bot",
     "walrus-testnet-bot",
     "walrus-bot",
-    "walrus-protocol"
+    "walrus-protocol",
+    "rambeboy"
   ],
-  
   "author": "Rambeboy",
   "license": "MIT",
   "repository": {
