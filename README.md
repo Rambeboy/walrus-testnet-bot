@@ -14,7 +14,8 @@ The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Test
 Walrus Protocol Potential Testnet
 Network : SUI
 
-- Connect new SUI Wallet : [SUI Wallet](https://stake.walrus.site) (Testnet) - Get faucet : [Faucet](https://discord.com/invite/sui)
+- Connect new SUI Wallet : [SUI Wallet](https://stake.walrus.site)
+- Get faucet : [Faucet](https://discord.com/invite/sui)
 - Exchange SUI to WAL
 - Stake 
 - Done
