@@ -1,4 +1,4 @@
-# WALRUS TESTNET BOT
+## WALRUS TESTNET BOT
 
 ![walrus](assets/img1.png)
 
