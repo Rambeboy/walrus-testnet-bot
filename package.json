@@ -2,7 +2,7 @@
   "name": "walrus-testnet-bot",
   "version": "1.0.0",
   "type": "module",
-  "description": "The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.",
+  "description": "Tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.",
   "main": "index.js",
   "scripts": {
     "start": "node start.js",
@@ -18,6 +18,7 @@
     "walrus-bot",
     "walrus-protocol",
   ],
+  
   "author": "Rambeboy",
   "license": "MIT",
   "repository": {
