@@ -22,7 +22,7 @@ class Twist {
     const _0x6c53ae = _0x4e5da4.find(_0xa323f1 => _0xa323f1.coinType === COINENUM.WAL);
     const _0x3e9a3f = (_0x6c53ae ? _0x6c53ae.totalBalance : '?') + " WAL";
     this.twisters.put(_0x5cb105, {
-      'text': "\n================== Account " + (_0x119f02 + 0x1) + " =================\nAddress      : " + _0xbc9879 + "\nBalance      : - " + _0x50dff2 + "\n               - " + _0x3e9a3f + "\nSWAP Count   : " + (_0x49413c.txCount ?? 0x0) + " / " + Config.SWAPCOUNT + " " + (_0x49413c.txCount ?? 0x0 == Config.SWAPCOUNT ? "Finished" : '') + "\n               \nStatus : " + _0xc0be15 + "\nDelay  : " + _0x402981 + "\n=============================================="
+      'text': "\n================== Account " + (_0x119f02 + 0x1) + " =================\nAddress      : " + _0xbc9879 + "\nBalance      : - " + _0x50dff2 + "\n               - " + _0x3e9a3f + "\nSWAP Count   : " + (_0x49413c.txCount ?? 0x0) + " / " + Config.SWAPCOUNT + " " + (_0x49413c.txCount ?? 0x0 == Config.SWAPCOUNT ? "Finished" : '') + "\n               \nStatus : " + _0xc0be15 + " \nDelay  : " + _0x402981 + "\n=============================================="
     });
   }
   ["info"](_0x580ae9 = '') {
