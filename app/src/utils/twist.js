@@ -1,1 +1,41 @@
-const _0x3c7556=_0x3260;(function(_0x3684d0,_0x19b3c2){const _0x3c55b3=_0x3260,_0x1b5083=_0x3684d0();while(!![]){try{const _0xb206bc=-parseInt(_0x3c55b3(0x162))/0x1*(parseInt(_0x3c55b3(0x16f))/0x2)+-parseInt(_0x3c55b3(0x165))/0x3+-parseInt(_0x3c55b3(0x163))/0x4+parseInt(_0x3c55b3(0x159))/0x5+parseInt(_0x3c55b3(0x179))/0x6*(parseInt(_0x3c55b3(0x15d))/0x7)+parseInt(_0x3c55b3(0x17a))/0x8*(parseInt(_0x3c55b3(0x169))/0x9)+parseInt(_0x3c55b3(0x164))/0xa;if(_0xb206bc===_0x19b3c2)break;else _0x1b5083['push'](_0x1b5083['shift']());}catch(_0x118038){_0x1b5083['push'](_0x1b5083['shift']());}}}(_0x481a,0x72ec3));function _0x481a(){const _0x21443c=['35706mhHGwG','1348784maqqpd','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0aStatus\x20:\x20','Finished','\x20SUI','916080sofmXH','\x20/\x20','\x0a==============================================\x0aInfo\x20:\x20','twisters','770lSRxwO','address','SWAPCOUNT','indexOf','\x0a==============================================','3181lXPYns','3126220RybjXK','4879900LATVjy','497391xIcGFK','txCount','\x20WAL','\x0a==================\x20Account\x20','18espzja','clearInfo','info','\x20=================\x0aAddress\x20\x20\x20\x20\x20\x20:\x20','\x20-\x20','WAL','154VvBQXM','log','\x0aSWAP\x20Count\x20\x20\x20:\x20','remove','put','clear','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-\x20','totalBalance','\x0aDelay\x20\x20:\x20','coinType'];_0x481a=function(){return _0x21443c;};return _0x481a();}import{Twisters}from'twisters';function _0x3260(_0x37fded,_0x2baef2){const _0x481ad8=_0x481a();return _0x3260=function(_0x3260e5,_0x360f55){_0x3260e5=_0x3260e5-0x159;let _0xf8cfbe=_0x481ad8[_0x3260e5];return _0xf8cfbe;},_0x3260(_0x37fded,_0x2baef2);}import _0x56aa10 from'./logger.js';import _0x235ee6 from'../core/core.js';import{privateKey}from'../../accounts/accounts.js';import'../core/network/rpc.js';import{Config}from'../../config/config.js';import{COINENUM}from'../core/coin/coin_enum.js';class Twist{constructor(){this['twisters']=new Twisters();}[_0x3c7556(0x170)](_0x2f1044='',_0x110c3e='',_0x186328=new _0x235ee6(),_0x585825){const _0x2ad428=_0x3c7556,_0x45009c=privateKey[_0x2ad428(0x160)](_0x110c3e);_0x585825==undefined&&(_0x56aa10[_0x2ad428(0x16b)]('Account\x20'+(_0x45009c+0x1)+_0x2ad428(0x16d)+_0x2f1044),_0x585825='-');const _0x260ef5=_0x186328[_0x2ad428(0x15e)]??'-',_0x24fae4=_0x186328['balance']??[],_0x1f01fd=_0x24fae4['find'](_0x5047ee=>_0x5047ee[_0x2ad428(0x178)]===COINENUM['SUI']),_0x21be14=(_0x1f01fd?_0x1f01fd['totalBalance']:'?')+_0x2ad428(0x17d),_0x55177c=_0x24fae4['find'](_0x28c459=>_0x28c459[_0x2ad428(0x178)]===COINENUM[_0x2ad428(0x16e)]),_0x292e89=(_0x55177c?_0x55177c[_0x2ad428(0x176)]:'?')+_0x2ad428(0x167);this[_0x2ad428(0x15c)][_0x2ad428(0x173)](_0x110c3e,{'text':_0x2ad428(0x168)+(_0x45009c+0x1)+_0x2ad428(0x16c)+_0x260ef5+'\x0aBalance\x20\x20\x20\x20\x20\x20:\x20-\x20'+_0x21be14+_0x2ad428(0x175)+_0x292e89+_0x2ad428(0x171)+(_0x186328[_0x2ad428(0x166)]??0x0)+_0x2ad428(0x15a)+Config[_0x2ad428(0x15f)]+'\x20'+(_0x186328['txCount']??0x0==Config[_0x2ad428(0x15f)]?_0x2ad428(0x17c):'')+_0x2ad428(0x17b)+_0x2f1044+_0x2ad428(0x177)+_0x585825+_0x2ad428(0x161)});}[_0x3c7556(0x16b)](_0x19a171=''){const _0x2608f4=_0x3c7556;this[_0x2608f4(0x15c)][_0x2608f4(0x173)](0x2,{'text':_0x2608f4(0x15b)+_0x19a171+_0x2608f4(0x161)});return;}[_0x3c7556(0x16a)](){const _0x4019c2=_0x3c7556;this[_0x4019c2(0x15c)][_0x4019c2(0x172)](0x2);}[_0x3c7556(0x174)](_0x3de0d7){const _0x525848=_0x3c7556;this[_0x525848(0x15c)][_0x525848(0x172)](_0x3de0d7);}}export default new Twist();
+import { Twisters } from 'twisters';
+import _0x3adc67 from './logger.js';
+import _0x390448 from '../core/core.js';
+import { privateKey } from '../../accounts/accounts.js';
+import '../core/network/rpc.js';
+import { Config } from '../../config/config.js';
+import { COINENUM } from '../core/coin/coin_enum.js';
+class Twist {
+  constructor() {
+    this.twisters = new Twisters();
+  }
+  ["log"](_0xc0be15 = '', _0x5cb105 = '', _0x49413c = new _0x390448(), _0x402981) {
+    const _0x119f02 = privateKey.indexOf(_0x5cb105);
+    if (_0x402981 == undefined) {
+      _0x3adc67.info("Account " + (_0x119f02 + 0x1) + " - " + _0xc0be15);
+      _0x402981 = '-';
+    }
+    const _0xbc9879 = _0x49413c.address ?? '-';
+    const _0x4e5da4 = _0x49413c.balance ?? [];
+    const _0x37e114 = _0x4e5da4.find(_0x13e336 => _0x13e336.coinType === COINENUM.SUI);
+    const _0x50dff2 = (_0x37e114 ? _0x37e114.totalBalance : '?') + " SUI";
+    const _0x6c53ae = _0x4e5da4.find(_0xa323f1 => _0xa323f1.coinType === COINENUM.WAL);
+    const _0x3e9a3f = (_0x6c53ae ? _0x6c53ae.totalBalance : '?') + " WAL";
+    this.twisters.put(_0x5cb105, {
+      'text': "\n================== Account " + (_0x119f02 + 0x1) + " =================\nAddress      : " + _0xbc9879 + "\nBalance      : - " + _0x50dff2 + "\n               - " + _0x3e9a3f + "\nSWAP Count   : " + (_0x49413c.txCount ?? 0x0) + " / " + Config.SWAPCOUNT + " " + (_0x49413c.txCount ?? 0x0 == Config.SWAPCOUNT ? "Finished" : '') + "\n               \nStatus : " + _0xc0be15 + "\nDelay  : " + _0x402981 + "\n=============================================="
+    });
+  }
+  ["info"](_0x580ae9 = '') {
+    this.twisters.put(0x2, {
+      'text': "\n==============================================\nInfo : " + _0x580ae9 + "\n=============================================="
+    });
+    return;
+  }
+  ["clearInfo"]() {
+    this.twisters.remove(0x2);
+  }
+  ['clear'](_0x2d4f3a) {
+    this.twisters.remove(_0x2d4f3a);
+  }
+}
+export default new Twist();
