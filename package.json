@@ -5,8 +5,8 @@
   "description": "Tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js",
-    "setup": "node setup.js",
+    "start": "node scripts/start.js",
+    "setup": "node scripts/setup.js",
     "dev": "node index.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json",
     "test": "node test.js"
