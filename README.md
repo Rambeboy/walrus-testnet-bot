@@ -1,10 +1,10 @@
-## WALRUS TESTNET BOT
+# WALRUS TESTNET BOT
 
 ![walrus](assets/img1.png)
 
 The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI and WAL, Stake to a Node Operator and Request Faucet seamlessly and daily making it an ideal solution for you to do your Walrus Testnet Airdrop.
 
-## Prerequisite
+## PREREQUISITE
 
 - Git
 - Node JS (v22)
@@ -117,6 +117,6 @@ Feel free to fork and contribute adding more feature thanks.
 
 ## LICENSE
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for more details.
 
 ---
