@@ -9,7 +9,7 @@
     "setup": "node scripts/setup.js",
     "dev": "node index.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json",
-    "test": "node test.js"
+    "test": "node scripts/test.js"
   },
   "keywords": [
     "testnet-bot",
