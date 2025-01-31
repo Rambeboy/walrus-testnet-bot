@@ -1,1 +1,122 @@
-(function(_0x115a4f,_0x32a8aa){const _0x32be05=_0x2754,_0x13a26f=_0x115a4f();while(!![]){try{const _0x314138=parseInt(_0x32be05(0xa2))/0x1+parseInt(_0x32be05(0xb6))/0x2+-parseInt(_0x32be05(0xa7))/0x3*(-parseInt(_0x32be05(0x8c))/0x4)+parseInt(_0x32be05(0x9e))/0x5+-parseInt(_0x32be05(0x9c))/0x6+-parseInt(_0x32be05(0x92))/0x7+-parseInt(_0x32be05(0xb1))/0x8;if(_0x314138===_0x32a8aa)break;else _0x13a26f['push'](_0x13a26f['shift']());}catch(_0x5d0d61){_0x13a26f['push'](_0x13a26f['shift']());}}}(_0x22ae,0xeba23));import{privateKey}from'./accounts/accounts.js';import{Config}from'./config/config.js';import{COINENUM}from'./src/core/coin/coin_enum.js';import _0x43be5e from'./src/core/core.js';function _0x22ae(){const _0x1209b3=['exWalToSui','2198600jZmlSw','Author\x20:\x20Nofan\x20Rambe','info','all','balance','477350qrBYCv','Please\x20input\x20your\x20account\x20first\x20on\x20accounts.js\x20file','SUI','Application\x20Started','19268iuBXdv','showSkelLogo','indexOf','getBalance','getAccountInfo','WALRUS\x20TESTNET\x20BOT','5421591SHSmQZ',',\x20Retry\x20again\x20after\x2010\x20Second','requestFaucet','exSuiToWal','error','yiHuf','delay','msToTime','\x20SUI','stakeWalToOperator','8479434ZEndYq','stringify','5562430OqBnSN','Min\x20balance\x20is\x20','message','DELAYINHOURS','1512982zRjvLO','txCount','DtGMZ','log','BOT\x20STARTED','351yTNLcn','totalBalance','Welcome\x20&\x20Enjoy\x20Sir!','find','\x20Processing\x20Done,\x20Delaying\x20for\x20','Account\x20','TXAMOUNTMAX','push','length'];_0x22ae=function(){return _0x1209b3;};return _0x22ae();}import{Helper}from'./src/utils/helper.js';import _0x2d9dc from'./src/utils/logger.js';function _0x2754(_0x4ae9b0,_0x4029b6){const _0x22aecf=_0x22ae();return _0x2754=function(_0x2754cb,_0x130996){_0x2754cb=_0x2754cb-0x8a;let _0x139fb4=_0x22aecf[_0x2754cb];return _0x139fb4;},_0x2754(_0x4ae9b0,_0x4029b6);}async function operation(_0x514cec){const _0x227add=_0x2754,_0x114a05=new _0x43be5e(_0x514cec);try{await _0x114a05[_0x227add(0x90)](),await _0x114a05[_0x227add(0x8f)](!![]),await _0x114a05[_0x227add(0x94)]();const _0x348349=_0x114a05[_0x227add(0xb5)],_0xd7256f=_0x348349[_0x227add(0xaa)](_0x16a7bd=>_0x16a7bd['coinType']===COINENUM[_0x227add(0x8a)]),_0x406074=_0xd7256f?_0xd7256f[_0x227add(0xa8)]:0x0;for(const _0x3f098c of new Array(Config['SWAPCOUNT'])){if(_0x406074<Config[_0x227add(0xad)])throw Error(_0x227add(0x9f)+Config[_0x227add(0xad)]+'\x20SUI');try{await _0x114a05[_0x227add(0x95)](),await _0x114a05[_0x227add(0xb0)](),_0x114a05[_0x227add(0xa3)]+=0x1;}catch(_0x427b00){console[_0x227add(0xa5)](_0x427b00);}}if(_0x406074<Config[_0x227add(0xad)])throw Error('Min\x20balance\x20is\x20'+Config[_0x227add(0xad)]+_0x227add(0x9a));await _0x114a05[_0x227add(0x95)]();for(const _0x324af2 of Config['STAKENODEOPERATOR']){await _0x114a05[_0x227add(0x9b)](_0x324af2);}const _0x6ad12=Config[_0x227add(0xa1)]??0x6,_0x3a7deb=0x36ee80*_0x6ad12;await Helper[_0x227add(0x98)](_0x3a7deb,_0x514cec,_0x227add(0xac)+(privateKey[_0x227add(0x8e)](_0x514cec)+0x1)+_0x227add(0xab)+Helper[_0x227add(0x99)](_0x3a7deb),_0x114a05),await operation(_0x514cec);}catch(_0x3de43e){_0x3de43e['message']?await Helper[_0x227add(0x98)](0x2710,_0x514cec,'Error\x20:\x20'+_0x3de43e[_0x227add(0xa0)]+_0x227add(0x93),_0x114a05):await Helper[_0x227add(0x98)](0x2710,_0x514cec,'Error\x20:'+JSON['stringify'](_0x3de43e)+_0x227add(0x93),_0x114a05),await operation(_0x514cec);}}async function startBot(){const _0x32a295=_0x2754,_0x5d3e2c={'yRCbG':function(_0x2c2669,_0x4110ac){return _0x2c2669(_0x4110ac);},'TlttO':function(_0x41541c,_0x538897){return _0x41541c!==_0x538897;},'CBrRa':function(_0x2431a0,_0x36a2ff){return _0x2431a0==_0x36a2ff;},'uNJHP':_0x32a295(0xa4),'hgYYe':function(_0x2a8c63,_0x53e99c){return _0x2a8c63(_0x53e99c);},'fLyRS':function(_0x4462fd){return _0x4462fd();},'mZJxT':_0x32a295(0x97)};return new Promise(async(_0x1464e0,_0x960991)=>{const _0x2694fe=_0x32a295;try{_0x2d9dc[_0x2694fe(0xb3)](_0x2694fe(0xa6));if(privateKey[_0x2694fe(0xaf)]==0x0)throw Error(_0x2694fe(0xb7));const _0x2e7d84=[];for(const _0x50e57f of privateKey){_0x2e7d84[_0x2694fe(0xae)](operation(_0x50e57f));}await Promise[_0x2694fe(0xb4)](_0x2e7d84),_0x1464e0();}catch(_0xd23969){_0x2d9dc[_0x2694fe(0xb3)]('BOT\x20STOPPED'),_0x2d9dc[_0x2694fe(0x96)](JSON[_0x2694fe(0x9d)](_0xd23969)),_0x960991(_0xd23969);}});}((async()=>{const _0x3e6066=_0x2754,_0x49bb98={'LVXOQ':function(_0xaaf8a7){return _0xaaf8a7();},'lHQGr':'','QXxvA':'','DGyup':function(_0x4fa1a4,_0x5096f7){return _0x4fa1a4<_0x5096f7;},'eXoXK':function(_0x195356,_0x3eab17){return _0x195356(_0x3eab17);},'qpCdR':_0x3e6066(0x91),'oBEwj':_0x3e6066(0xb2),'zhtrM':'Error\x20During\x20executing\x20bot'};try{_0x2d9dc['clear'](),_0x2d9dc[_0x3e6066(0xb3)](''),_0x2d9dc[_0x3e6066(0xb3)](_0x3e6066(0x8b)),console[_0x3e6066(0xa5)](),console[_0x3e6066(0xa5)](_0x3e6066(0x91)),console['log'](_0x3e6066(0xb2)),console[_0x3e6066(0xa5)](_0x3e6066(0xa9)),console[_0x3e6066(0xa5)](),console[_0x3e6066(0xa5)](),Helper[_0x3e6066(0x8d)]();if(privateKey[_0x3e6066(0xaf)]<0x1)throw Error('Please\x20set\x20up\x20accounts.js\x20first');await startBot();}catch(_0x44b167){console[_0x3e6066(0xa5)]('Error\x20During\x20executing\x20bot',_0x44b167);throw _0x44b167;}})());
+import { privateKey } from './accounts/accounts.js';
+import { Config } from './config/config.js';
+import { COINENUM } from './src/core/coin/coin_enum.js';
+import _0x43be5e from './src/core/core.js';
+import { Helper } from './src/utils/helper.js';
+import _0x2d9dc from './src/utils/logger.js';
+async function operation(_0x514cec) {
+  const _0x114a05 = new _0x43be5e(_0x514cec);
+  try {
+    await _0x114a05.getAccountInfo();
+    await _0x114a05.getBalance(true);
+    await _0x114a05.requestFaucet();
+    const _0x348349 = _0x114a05.balance;
+    const _0xd7256f = _0x348349.find(_0x16a7bd => _0x16a7bd.coinType === COINENUM.SUI);
+    const _0x406074 = _0xd7256f ? _0xd7256f.totalBalance : 0x0;
+    for (const _0x3f098c of new Array(Config.SWAPCOUNT)) {
+      if (_0x406074 < Config.TXAMOUNTMAX) {
+        throw Error("Min balance is " + Config.TXAMOUNTMAX + " SUI");
+      }
+      try {
+        await _0x114a05.exSuiToWal();
+        await _0x114a05.exWalToSui();
+        _0x114a05.txCount += 0x1;
+      } catch (_0x427b00) {
+        console.log(_0x427b00);
+      }
+    }
+    if (_0x406074 < Config.TXAMOUNTMAX) {
+      throw Error("Min balance is " + Config.TXAMOUNTMAX + " SUI");
+    }
+    await _0x114a05.exSuiToWal();
+    for (const _0x324af2 of Config.STAKENODEOPERATOR) {
+      await _0x114a05.stakeWalToOperator(_0x324af2);
+    }
+    const _0x6ad12 = Config.DELAYINHOURS ?? 0x6;
+    const _0x3a7deb = 0x36ee80 * _0x6ad12;
+    await Helper.delay(_0x3a7deb, _0x514cec, "Account " + (privateKey.indexOf(_0x514cec) + 0x1) + " Processing Done, Delaying for " + Helper.msToTime(_0x3a7deb), _0x114a05);
+    await operation(_0x514cec);
+  } catch (_0x3de43e) {
+    if (_0x3de43e.message) {
+      await Helper.delay(0x2710, _0x514cec, "Error : " + _0x3de43e.message + ", Retry again after 10 Second", _0x114a05);
+    } else {
+      await Helper.delay(0x2710, _0x514cec, "Error :" + JSON.stringify(_0x3de43e) + ", Retry again after 10 Second", _0x114a05);
+    }
+    await operation(_0x514cec);
+  }
+}
+async function startBot() {
+  const _0x5d3e2c = {
+    'yRCbG': function (_0x2c2669, _0x4110ac) {
+      return _0x2c2669(_0x4110ac);
+    },
+    'TlttO': function (_0x41541c, _0x538897) {
+      return _0x41541c !== _0x538897;
+    },
+    'CBrRa': function (_0x2431a0, _0x36a2ff) {
+      return _0x2431a0 == _0x36a2ff;
+    },
+    'uNJHP': "DtGMZ",
+    'hgYYe': function (_0x2a8c63, _0x53e99c) {
+      return _0x2a8c63(_0x53e99c);
+    },
+    'fLyRS': function (_0x4462fd) {
+      return _0x4462fd();
+    },
+    'mZJxT': "yiHuf"
+  };
+  return new Promise(async (_0x1464e0, _0x960991) => {
+    try {
+      _0x2d9dc.info("BOT STARTED");
+      if (privateKey.length == 0x0) {
+        throw Error("Please input your account first on accounts.js file");
+      }
+      const _0x2e7d84 = [];
+      for (const _0x50e57f of privateKey) {
+        _0x2e7d84.push(operation(_0x50e57f));
+      }
+      await Promise.all(_0x2e7d84);
+      _0x1464e0();
+    } catch (_0xd23969) {
+      _0x2d9dc.info("BOT STOPPED");
+      _0x2d9dc.error(JSON.stringify(_0xd23969));
+      _0x960991(_0xd23969);
+    }
+  });
+}
+(async () => {
+  const _0x49bb98 = {
+    'LVXOQ': function (_0xaaf8a7) {
+      return _0xaaf8a7();
+    },
+    'lHQGr': '',
+    'QXxvA': '',
+    'DGyup': function (_0x4fa1a4, _0x5096f7) {
+      return _0x4fa1a4 < _0x5096f7;
+    },
+    'eXoXK': function (_0x195356, _0x3eab17) {
+      return _0x195356(_0x3eab17);
+    },
+    'qpCdR': "WALRUS TESTNET BOT",
+    'oBEwj': "Author : Nofan Rambe",
+    'zhtrM': "Error During executing bot"
+  };
+  try {
+    _0x2d9dc.clear();
+    _0x2d9dc.info('');
+    _0x2d9dc.info("Application Started");
+    console.log();
+    console.log("WALRUS TESTNET BOT");
+    console.log("Author : Nofan Rambe");
+    console.log("Welcome & Enjoy Sir!");
+    console.log();
+    console.log();
+    if (privateKey.length < 0x1) {
+      throw Error("Please set up accounts.js first");
+    }
+    await startBot();
+  } catch (_0x44b167) {
+    console.log("Error During executing bot", _0x44b167);
+    throw _0x44b167;
+  }
+})();
